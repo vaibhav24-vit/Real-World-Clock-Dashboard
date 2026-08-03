@@ -1,16 +1,140 @@
-# React + Vite
+<img width="2754" height="1334" alt="image" src="https://github.com/user-attachments/assets/02d2c785-a2b7-4019-9c6f-c3e1c0fb14fe" /># 🌍 React World Clock Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive **World Clock Dashboard** built using **React.js** and **Vite**. The application displays real-time analog and digital clocks, supports multiple world time zones, provides 12/24-hour format switching, dark mode, alarm management, and dashboard controls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🕒 Real-Time Analog Clock
+- 💻 Real-Time Digital Clock
+- 🌍 Multiple World Clocks
+- ➕ Add Custom Time Zones
+- ❌ Remove Time Zones
+- 🕛 12-Hour / 24-Hour Format Toggle
+- 🌙 Dark / Light Theme
+- ⏰ Alarm Manager
+- 🎛 Dashboard Controls
+- 📱 Responsive User Interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📁 Project Structure
+
+```text
+react-world-clock-dashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or above)
+- npm
+
+### Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/siddhinehe19/react-world-clock-dashboard.git
+```
+
+Navigate to the project folder
+
+```bash
+cd react-world-clock-dashboard
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open your browser
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🎯 Functionalities
+
+### 🕒 Analog Clock
+
+- Real-time hour, minute, and second hands.
+- Updates every second.
+
+### 💻 Digital Clock
+
+- Displays current date and time.
+- Supports both 12-hour and 24-hour formats.
+
+### 🌍 World Clock
+
+- Shows time for multiple cities.
+- Add or remove world clocks dynamically.
+
+### 🎛 Dashboard Controls
+
+- Toggle Analog Clock
+- Toggle Digital Clock
+- Switch between Light and Dark Mode
+- Change 12/24-hour format
+
+### ⏰ Alarm Manager
+
+- Add alarm times
+- Delete alarms
+- Displays alert when the alarm time is reached
+
+---
+
+## 📷 Screenshots
+
+
+
+
+## 🔮 Future Enhancements
+
+- Alarm sound
+- Stopwatch
+- Countdown timer
+- Weather API integration
+- Save preferences using Local Storage
+
+---
