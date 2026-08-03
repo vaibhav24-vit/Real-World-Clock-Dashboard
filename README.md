@@ -1,4 +1,4 @@
-<img width="2754" height="1334" alt="image" src="https://github.com/user-attachments/assets/02d2c785-a2b7-4019-9c6f-c3e1c0fb14fe" /># 🌍 React World Clock Dashboard
+# 🌍 React World Clock Dashboard
 
 A modern, responsive, and interactive **World Clock Dashboard** built using **React.js** and **Vite**. The application displays real-time analog and digital clocks, supports multiple world time zones, provides 12/24-hour format switching, dark mode, alarm management, and dashboard controls.
 
@@ -125,6 +125,13 @@ http://localhost:5173
 ---
 
 ## 📷 Screenshots
+<img width="2754" height="1334" alt="image" src="https://github.com/user-attachments/assets/02d2c785-a2b7-4019-9c6f-c3e1c0fb14fe" />
+
+<img width="2736" height="930" alt="Screenshot 2026-08-03 230357" src="https://github.com/user-attachments/assets/820f18cd-a598-4431-b0cb-abc22d88a27d" />
+
+<img width="2708" height="524" alt="Screenshot 2026-08-03 230404" src="https://github.com/user-attachments/assets/f5dc9fdb-dd98-41f0-b7ea-7337ba499185" />
+
+<img width="2696" height="1220" alt="image" src="https://github.com/user-attachments/assets/3e6d4ca9-11fd-499c-bdd4-d2de686291c0" />
 
 
 
