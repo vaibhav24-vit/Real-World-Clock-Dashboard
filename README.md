@@ -1,48 +1,75 @@
-# 🌍 World Clock Dashboard
+﻿# World Clock Dashboard
 
-A responsive React dashboard that displays the current time, allows switching between analog and digital clock views, and tracks time across multiple cities worldwide.
+This is a small React app I built to keep track of time across different cities. It shows the current time in a clean dashboard, includes both analog and digital clock views, and lets you add custom time zones for places you care about.
 
-This project is built with Vite and React and includes theme switching, 12/24-hour formatting, custom timezone support, and a simple alarm manager.
+It was a fun project to work on while learning more about React, time zones, and UI controls.
 
-## ✨ Features
+## What it does
 
-- Real-time analog clock
-- Real-time digital clock
-- Multi-city world clock list
-- Add or remove custom time zones
-- 12-hour / 24-hour time formatting toggle
-- Light and dark mode
-- Alarm creation and deletion
-- Responsive layout for desktop and smaller screens
+- Shows the current time in real time
+- Displays both analog and digital clocks
+- Lets you add multiple cities/time zones
+- Remove clocks you no longer need
+- Switch between 12-hour and 24-hour formats
+- Toggle dark mode and light mode
+- Set alarms and delete them when needed
+- Works well on desktop and smaller screens
 
-## 🧩 Tech Stack
+## Tech used
 
 - React
 - Vite
 - JavaScript
 - CSS
 
-## 📁 Project Structure
+## Run it locally
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+
+### Steps
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/siddhinehe19/react-world-clock-dashboard.git
+```
+
+2. Go into the project folder:
+
+```bash
+cd react-world-clock-dashboard
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+4. Start the app:
+
+```bash
+npm run dev
+```
+
+5. Open this in your browser:
+
+```text
+http://localhost:5173
+```
+
+## Project structure
 
 ```text
 world-clock-dashboard/
 ├── public/
-│   ├── favicon.svg
-│   └── icons.svg
 ├── src/
-│   ├── assets/
 │   ├── components/
-│   │   ├── Alarm.jsx
-│   │   ├── AnalogClock.jsx
-│   │   ├── Controls.jsx
-│   │   ├── DigitalClock.jsx
-│   │   ├── ThemeToggle.jsx
-│   │   └── WorldClock.jsx
 │   ├── data/
-│   │   └── timezones.js
 │   ├── styles/
-│   │   ├── App.css
-│   │   └── Clock.css
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
@@ -50,75 +77,20 @@ world-clock-dashboard/
 ├── index.html
 ├── package.json
 ├── vite.config.js
-├── eslint.config.js
 ├── README.md
 └── .gitignore
 ```
 
-## 🚀 Getting Started
+## Screenshots
 
-### Prerequisites
+<img width="2754" height="1334" alt="World Clock Dashboard preview" src="https://github.com/user-attachments/assets/02d2c785-a2b7-4019-9c6f-c3e1c0fb14fe" />
 
-- Node.js 18+
-- npm
+<img width="2736" height="930" alt="Dashboard UI" src="https://github.com/user-attachments/assets/820f18cd-a598-4431-b0cb-abc22d88a27d" />
 
-### Installation
+<img width="2708" height="524" alt="Controls and settings panel" src="https://github.com/user-attachments/assets/f5dc9fdb-dd98-41f0-b7ea-7337ba499185" />
 
-1. Clone the repository:
+<img width="2696" height="1220" alt="Clock display" src="https://github.com/user-attachments/assets/3e6d4ca9-11fd-499c-bdd4-d2de686291c0" />
 
-```bash
-git clone https://github.com/siddhinehe19/react-world-clock-dashboard.git
-```
+## Notes
 
-2. Navigate to the project folder:
-
-```bash
-cd react-world-clock-dashboard
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-5. Open the app in your browser at:
-
-```text
-http://localhost:5173
-```
-
-## 🕒 How It Works
-
-- The app uses the browser's current system time and updates once per second.
-- Each world clock calculates the local time based on the configured timezone using the browser's Intl APIs.
-- The alarm feature checks the current time against saved alarm values and triggers a browser alert when the match occurs.
-- Theme and display preferences are controlled from the dashboard controls panel.
-
-## 📸 Screenshots
-
-![World Clock Dashboard Screenshot](https://github.com/user-attachments/assets/02d2c785-a2b7-4019-9c6f-c3e1c0fb14fe)
-
-![World Clock Dashboard UI](https://github.com/user-attachments/assets/820f18cd-a598-4431-b0cb-abc22d88a27d)
-
-![World Clock Dashboard Controls](https://github.com/user-attachments/assets/f5dc9fdb-dd98-41f0-b7ea-7337ba499185)
-
-![Clock View](https://github.com/user-attachments/assets/3e6d4ca9-11fd-499c-bdd4-d2de686291c0)
-
-## 🔮 Possible Improvements
-
-- Add alarm sound notifications
-- Add stopwatch and countdown timer features
-- Save user preferences in local storage
-- Integrate weather or timezone search suggestions
-- Add draggable dashboard layout
-
-## 📄 License
-
-This project is for educational and demonstration purposes.
+This project is mainly for learning and personal use, but it can be a good starting point if someone wants to build a bigger clock dashboard later.
